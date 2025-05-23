@@ -1,6 +1,8 @@
 # ShoppingCartApplication
 Shopping cart created by spring boot
 
+This application is developed using spring-boot framework following mvc architecture using maven build tool along with spring web, spring data-jpa and mysql-jdbc dependences. This is a shopping cart Application used to display catalog items from our database. It is simple application demonstrating the simplistic use of spring-boot framework reducing boiler plate code.
+
 # Steps used in this project
 install ubuntu using this command wsl --install
 
@@ -24,7 +26,7 @@ create database if not exists database_name; (In my case it is shopping_db)
 grant permissions to root user on your created database name using command GRANT ALL PRIVILEGES your_database_name.* TO your_user_name@localhost;
 
 # Main project (Make sure to use linux shell in IDE as it secure and simple)
-1) initialize spring intializer in web and select language-java, spring-boot version-3.5.0, buildtool-maven and add dependencies -springweb, data-jpa, mysql-jdbc
+1) Browse spring intializer in web and select language-java, spring-boot version-3.5.0, buildtool-maven and add dependencies -springweb, data-jpa, mysql-jdbc
 
 2) springweb used to communicate using restAPI's, data-JPA used to map columns with databases using hibernate also performing CRUD operations and mysql-jdbc is used for connecting to mysql server.
 
